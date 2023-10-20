@@ -8,9 +8,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: damo-maker/actions-custom@main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #  env:
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         args: 'FIXED'
-    #- run: |
-    #    --header 'authorization: GITHUB_TOKEN ${{ secrets.GITHUB_TOKEN }}'
+    - run: |
+        --header 'authorization: GITHUB_TOKEN ${{ secrets.GITHUB_TOKEN }}'
