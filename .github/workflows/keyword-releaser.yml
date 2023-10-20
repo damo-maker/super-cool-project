@@ -9,6 +9,6 @@ jobs:
     - uses: actions/checkout@v1
     - uses: damo-maker/actions-custom@main
       env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONS_CUSTOM_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         args: 'FIXED'
