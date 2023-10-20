@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: https://github.com/damo-maker/actions_custom@main
+    - uses: damo-maker/actions-custom@main
       env:
         GITHUB_TOKEN: ${{ secrets.ACTIONS_CUSTOM_KEY }}
       with:
