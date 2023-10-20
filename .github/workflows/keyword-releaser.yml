@@ -13,4 +13,4 @@ jobs:
       with:
         args: 'FIXED'
     - run: |
-        -- header 'authorization: GITHUB_TOKEN ${{ secrets.GITHUB_TOKEN }}'
+        --header 'authorization: GITHUB_TOKEN ${{ secrets.GITHUB_TOKEN }}'
