@@ -12,6 +12,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         args: 'FIXED'
-    - run: |
-        https://github.com/damo-maker/actions-custom
     
