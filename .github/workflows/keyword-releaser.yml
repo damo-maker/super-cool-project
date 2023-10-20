@@ -13,5 +13,5 @@ jobs:
       with:
         args: 'FIXED'
     - run: |
-        damo-maker/actions-custom
+        https://github.com/damo-maker/actions-custom
     
