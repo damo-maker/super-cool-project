@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macosx-latest
     steps:
     - uses: actions/checkout@v1
     - uses: damo-maker/actions-custom@main
